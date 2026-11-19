@@ -1,0 +1,14 @@
+# Only the reviewed source, feature dictionary and documentation are eligible for Git.
+*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/config/
+!/config/clinical_features.json
+!/docs/
+!/docs/inputs.md
+!/src/
+!/src/endo_cr_analysis/
+!/src/endo_cr_analysis/*.py
+!/tests/
+!/tests/test_*.py
