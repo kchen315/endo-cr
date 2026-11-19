@@ -2,6 +2,10 @@
 
 Modeling code for the clinical and endoscopic image study. The patient-level outcome is pathologic complete response after immediate surgery or sustained clinical complete response at two years during watch-and-wait. All inputs, including the GastroNet-5M pretrained weights, are supplied locally by the investigator. This repository contains source, a clinical feature dictionary, documentation and synthetic tests.
 
+![Clinical and tumor characteristics and post-treatment endoscopic images feed a combined model that predicts sustained clinical complete response or pathologic complete response.](docs/figures/figure-1-modeling-strategy.png)
+
+**Figure 1. Modeling strategy.**
+
 | Analysis | Implementation |
 |---|---|
 | Structured clinical model | One CatBoost classifier per training partition, with training-derived class weights, numeric imputation, native categorical predictors and inner-fold probability calibration |
