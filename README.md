@@ -51,7 +51,7 @@ endo-cr report --predictions "$O/development/development_oof_predictions.csv" \
   --output "$O/report"
 ```
 
-The report writes the AUROCs and their DeLong intervals, the two-sided paired tests, average precision, Brier score, log loss, calibration, Wilson classification intervals, pathway counts and Figure 5 contributions. Figures 2–5 are rendered from those calculations. Figure 1 is a conceptual schematic. The sensitivity-map command is documented separately.
+The report writes the AUROCs and their DeLong intervals, the two-sided paired tests, average precision, Brier score, log loss, calibration, Wilson classification intervals, pathway counts and Figure 5 contributions. Figures 2–5 are rendered from those calculations.
 
 ## Interpretation
 
