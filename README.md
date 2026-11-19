@@ -57,4 +57,4 @@ The report writes the AUROCs and their DeLong intervals, the two-sided paired te
 
 The image comparison requires recorded endoscopy. The multimodal comparison requires both endoscopy and mrTRG. The classification analysis includes patients with model predictions even when a restaging assessment is missing. The near-complete subgroup is the union of near-complete endoscopic response and mrTRG 2. The report labels the fixed clinician rule and the probabilistic benchmark separately.
 
-The primary paired comparisons condition on the fitted predictions. The external comparisons and the development-selected decision cutoff were evaluated retrospectively. Figure 5 changes both the clinical inputs and the fusion equation between panels. Figure 6 describes sensitivity of the held-out ViT component. Patient images, display redactions and the clinical interpretation of individual examples remain with the investigators.
+The primary paired comparisons condition on the fitted predictions. The external comparisons and the development-selected decision cutoff were evaluated retrospectively.
